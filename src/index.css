@@ -53,6 +53,12 @@ li:active{
   position: sticky;
   top: 158px;
 }
+#sidebar1{
+  width: 30%;
+  height: 500px;
+  position: sticky;
+  top: 158px;
+}
 img{
   width: 100%;
   height: 40%;
