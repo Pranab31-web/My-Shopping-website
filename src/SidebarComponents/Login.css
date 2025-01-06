@@ -1,0 +1,29 @@
+#Signup{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);         
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px;                
+    padding: 20px;                       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: white;
+}
+.body1{
+    background-image: url("Login.png");
+    background-size:cover ; 
+}
+@media (max-width:1080px) and (min-width:700px) {
+    #Signup{
+        position: absolute;
+        left: 20%;
+    }
+}
+@media (max-width:700px){
+    #Signup{
+        position: absolute;
+        left: 0px;
+    }
+}
